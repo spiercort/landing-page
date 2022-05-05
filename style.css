@@ -27,10 +27,13 @@ body {
     color: white;
     display: flex;
     margin-right: auto;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .first-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
     color: white;
     padding: 50px 100px;
@@ -38,43 +41,38 @@ body {
 }
 
 .first-title {
-    display: block;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
     width: 300px;
+    margin-bottom: 10px;
 }
 
 .sub-title {
-    display: block;
     font-size: 18px;
     color: #E5E7EB;
     width: 400px;
+    margin-bottom: 10px;
 }
 
 .button {
-    display: block;
     background-color: #3882F6;
     padding: 10px 30px;
     border: none;
     border-radius: 5px;
     color: #F9FAF8;
+    width: 120px;
 }
 
 .placeholder-container {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: pink;
-    width: 410px;
-    height: 210px;
+    align-self: flex-end;
 }
 
 .placeholder {
-    display: flex;
     background-color: #3882F6;
-    width: 400px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
 }
 
 .second-title {
@@ -116,28 +114,74 @@ body {
 }
 
 .third-container {
-    padding: 100px;
+    display: flex;
+    justify-content: center;
     background-color: #eeeeee;
+    width: auto;
+    height: 300px;
 }
 
 .quote-container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    padding: 100px 100px;
 }
 
 .quote {
-    width: 500px;
+    width: 700px;
+    height: auto;
 }
 
 .quote-author {
-    display: flex;
-    justify-content: flex-end;
-    width: 718px;
     font-weight: bolder;
+    margin-left: 555px;
+}
+
+.fourth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 25px 50px;
+    border-radius: 10px;
+    color: white;
+    width: 700px;
+}
+
+.bottom-title {
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+}
+
+.bottom-subtext {
+    font-size: 16px;
+    margin-top: 5px;
+    width: 500px;
+}
+
+.bottom-button {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border: solid;
+    border-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    width: 120px;
 }
 
 .footer {
     display: flex;
+    justify-content: center;
     margin-top: auto;
+    background-color: #1F2937;
+    color: white;
+    padding: 25px 10px;
 }
