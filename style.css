@@ -33,11 +33,15 @@ body {
 
 .first-container {
     display: flex;
-    flex-direction: column;
     background-color: #1F2937;
     color: white;
     padding: 50px 100px;
     height: 250px;
+    width: auto;
+}
+
+.text-container {
+    display: inline-block;
 }
 
 .first-title {
@@ -66,11 +70,16 @@ body {
 
 .placeholder-container {
     display: flex;
-    align-self: flex-end;
+    justify-content: center;
+    margin-left: auto;
 }
 
 .placeholder {
-    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #eeeeee;
+    color: #1F2937;
     width: 200px;
     height: 100px;
 }
@@ -137,7 +146,6 @@ body {
 
 .fourth-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px 100px;
@@ -145,10 +153,9 @@ body {
 
 .content {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     background-color: #3882F6;
-    padding: 25px 50px;
+    padding:50px 100px;
     border-radius: 10px;
     color: white;
     width: 700px;
